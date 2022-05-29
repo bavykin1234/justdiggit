@@ -34,3 +34,11 @@ body {
 .color {
   color: grey;
 }
+
+.hr-hoverable {
+  cursor: pointer;
+}
+
+.hr-hoverable:hover hr {
+  color: #f70;
+}
